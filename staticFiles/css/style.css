@@ -1,0 +1,101 @@
+ @import url('https://fonts.googleapis.com/css?family=Roboto:200');
+
+
+.back{
+	background:url("/home/aman/Desktop/IWT/back.jpg") no-repeat fixed center center;
+	background-size: cover;
+	background-position: center;
+}
+.buttons{
+	background-color: #e6e6e6; 
+	border: none;
+    color: black;
+    width: 600px;
+    padding: 40px 100px;
+    margin: 8px;
+    margin-bottom: 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 50px;
+    cursor: pointer;
+	transform: scale(1);
+	transform: translate(0px, 5px);
+	transition: all .8s ease;
+	font-family: 'Roboto', sans-serif;
+	letter-spacing: 0.2em;
+}
+.buttons1{
+	background-color: #e6e6e6; 
+	border: none;
+    color: black;
+    padding: 40px 180px;
+    width: 600px;
+    margin: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 50px;
+    cursor: pointer;
+	transform: scale(1);
+	transform: translate(0px, 5px);
+	transition: all .8s ease;
+	font-family: 'Roboto', sans-serif;
+	letter-spacing: 0.2em;
+}
+.buttons:hover{
+	background-color: red;
+	transition: all .8s ease;
+	color: white;
+	transform: scale(1.1) perspective(1px);
+
+}
+.buttons1:hover{
+	background-color: red;
+	color:white;
+	transition: all .8s ease;
+	transform: scale(1.1) perspective(1px);
+	
+}
+
+.left{
+	float: left;
+	margin-top: 26%;
+	margin-left: 8%;
+	background-color: rgba(0,0,0,0.7);
+	border-color: white;
+	border:1px solid white;
+}
+
+.right{
+	float: right;
+	margin-top: 15%;
+	margin-right: 5%;
+}
+
+h1{
+	color: white;
+	font-family: Lucida Console, Courier, monospace;
+	font-size: 50px;
+}
+p{
+	color: white;
+	font-family: Lucida Console, Courier, monospace;
+	font-size: 30px;
+}
+#ciimchdmarketing {
+    background: #092965;
+    -webkit-animation: right-to-left 4s linear forwards;
+    animation: right-to-left 4s linear forwards;
+    padding: 15px 10px 15px 10px;
+    z-index: 999999;
+}
+.ciim777 {
+    position: fixed;
+    top: 20%;
+    height: auto;
+    width: auto;
+    right: 0px;
+    z-index: 999999;
+    border-radius: 3px;
+}
