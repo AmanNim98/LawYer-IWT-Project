@@ -2,7 +2,7 @@
 
 
 .back{
-	background:url("/home/aman/Desktop/IWT/back.jpg") no-repeat fixed center center;
+	background:url("/static/back.jpg") no-repeat fixed center center;
 	background-size: cover;
 	background-position: center;
 }
